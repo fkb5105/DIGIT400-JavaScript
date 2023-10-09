@@ -1,4 +1,4 @@
-/* Reset some default browser styles for consistency */
+
 body, h1, h3, p, table {
     margin: 0;
     padding: 0;
@@ -17,6 +17,7 @@ body {
 }
 .header h1 {
     font-size: 24px;
+    padding: 1rem;
 }
 .table-sample {
     background-color: #fff;
@@ -47,6 +48,7 @@ button {
     padding: 10px 20px;
     margin-right: 10px;
     cursor: pointer;
+    border-radius: 4px;
 }
 button:hover {
     background-color: #003366;
