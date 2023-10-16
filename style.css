@@ -54,3 +54,21 @@ button, span {
 button:hover {
     background-color: #003366;
 }
+/* SVG Assignments */
+/* Assignment 1 */
+@keyframes roll {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(400px) translateY(0);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

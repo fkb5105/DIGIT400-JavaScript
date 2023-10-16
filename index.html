@@ -60,6 +60,21 @@
                     </tfoot>
                 </table>
             </div>
+            <div class="SVGexercises">
+                <div class="ex1">
+                    <svg height="100" width="300" xmlns="http://www.w3.org/2000/svg" style="animation: roll 4s linear infinite;">
+                        <g transform="translate(50,50)">
+                            <circle cx="0" cy="0" r="40" stroke="black" stroke-width="3" fill="white" />
+                            <line x1="-30" y1="0" x2="30" y2="0" style="stroke:black;stroke-width:3">
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="4s" values="0;360" repeatCount="indefinite"/>
+                            </line>
+                            <line x1="0" y1="-30" x2="0" y2="30" style="stroke:black;stroke-width:3">
+                                <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="4s" values="0;360" repeatCount="indefinite"/>
+                            </line>
+                        </g>
+                    </svg>
+                </div>
+            </div>
         </div>
     </body>
 </html>
